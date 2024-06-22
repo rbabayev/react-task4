@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto san-serif ";
+  color: #333;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: inherit;
+}
+
+.navbar {
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar .headerControlBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 80px;
+}
+.navbar .navbarUL {
+  display: flex;
+  align-items: center;
+}
+.navbar .navbarUL li {
+  margin: 0 10px;
+}
+.navbar .navbarUL .searchBtn,
+.navbar .navbarUL .accountBtn,
+.navbar .navbarUL .shoppingBtn {
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+.navbar .navbarUL .searchBtn i,
+.navbar .navbarUL .accountBtn i,
+.navbar .navbarUL .shoppingBtn i {
+  margin-right: 5px;
+}
+.navbar .headerItemsBar {
+  display: flex;
+  justify-content: center;
+}
+.navbar .headerItemsBar a {
+  margin: 0 10px;
+  padding: 10px 20px;
+  color: #333;
+}
+.navbar .header {
+  text-align: center;
+  padding: 20px;
+}
+.navbar .header .headerH1text {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.navbar .header .headerPrg {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+.navbar .header .headerShopBtn {
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+.navbar .header .headerShopBtn img {
+  margin-right: 10px;
+}
+.navbar .header .headerWoman,
+.navbar .header .headerLeftFlower,
+.navbar .header .headerRightFlower {
+  margin-top: 20px;
+}
+
+.brandsBar {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+.brandsBar img {
+  max-width: 100px;
+}
+
+.main1 {
+  text-align: center;
+  padding: 40px 20px;
+}
+.main1 .main1-text {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.main1 .main1-left {
+  margin-bottom: 20px;
+}
+.main1 .main1-images {
+  display: flex;
+  justify-content: center;
+}
+.main1 .main1-images img {
+  margin: 0 10px;
+  max-width: 100px;
+}
+
+.main2 {
+  text-align: center;
+  padding: 40px 20px;
+}
+.main2 .main2H2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.main2 .main2BtnBar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.main2 .main2BtnBar button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #333;
+}
+.main2 .main2BtnBar button:hover {
+  background-color: #333;
+  color: #fff;
+}
+.main2 .main2BtnBar button.main2FilterBtn {
+  color: #333;
+}
+.main2 .main2BtnBar button.main2FilterBtn:hover {
+  background-color: #333;
+  color: #fff;
+}
+.main2 .main2BtnBar button.main2FilterBtn i {
+  margin-right: 5px;
+}
+
+.mainZaraBg {
+  position: relative;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f5f5f5;
+}
+.mainZaraBg .zaraSmallImg,
+.mainZaraBg .zaraBigImg {
+  margin-bottom: 20px;
+}
+.mainZaraBg .zaraMainP {
+  margin-bottom: 20px;
+}
+.mainZaraBg .zaraMainBtn {
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.main4 {
+  text-align: center;
+  padding: 40px 20px;
+}
+.main4 .main4H2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.main4 .main4BtnBar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.main4 .main4BtnBar button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #333;
+}
+.main4 .main4BtnBar button:hover {
+  background-color: #333;
+  color: #fff;
+}
+.main4 .main4BtnBar button.main4ShowAllBtn {
+  color: #333;
+}
+.main4 .main4BtnBar button.main4ShowAllBtn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.main5 {
+  text-align: center;
+  padding: 40px 20px;
+}
+.main5 .main5H2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.main5 .main5Products {
+  margin-bottom: 20px;
+}
+.main5 .main5H3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.main5 .emailInput {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+.main5 .main5SubmitBtn {
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+footer {
+  background-color: #222;
+  color: #999;
+  padding: 40px 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .footerDiv1,
+footer .footerDiv2,
+footer .footerDiv3,
+footer .footerDiv4 {
+  flex: 1 1 20%;
+  margin-bottom: 20px;
+}
+footer .footerDiv1 img {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+footer .footerDiv1 p {
+  margin-bottom: 20px;
+}
+footer .footerDiv1 ul {
+  display: flex;
+  justify-content: center;
+}
+footer .footerDiv1 ul i {
+  margin: 0 10px;
+  color: #ddd;
+}
+footer .footerDiv2 ul,
+footer .footerDiv3 ul,
+footer .footerDiv4 ul {
+  text-align: left;
+}
+footer .footerDiv2 ul a,
+footer .footerDiv3 ul a,
+footer .footerDiv4 ul a {
+  color: #ddd;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+footer .footerDiv2 ul p,
+footer .footerDiv3 ul p,
+footer .footerDiv4 ul p {
+  margin-bottom: 10px;
+}
+footer .bottom-footer {
+  width: 100%;
+  margin-top: 20px;
+}
+footer .bottom-footer p {
+  margin-bottom: 10px;
+}
+footer .bottom-footer img {
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+footer .bottom-footer button {
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+footer .bottom-footer button i {
+  margin-left: 5px;
+} /*# sourceMappingURL=main.css.map */

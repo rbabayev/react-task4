@@ -1,0 +1,94 @@
+{
+  "all-products": [
+    {
+      "imgPath": "./images/product1.jpg",
+      "name": "Nike Pegasus 41",
+      "price": "$120.00",
+      "type": "Shoes"
+    },
+    {
+      "imgPath": "./images/product2.jpg",
+      "name": "Buffalo Leather Moto Jacket",
+      "price": "$1450.00",
+      "type": "Jacket"
+    },
+    {
+      "imgPath": "./images/product3.jpg",
+      "name": "Pink Zara Hoodie",
+      "price": "$19.99",
+      "type": "Hoodie"
+    },
+    {
+      "imgPath": "./images/product4.jpg",
+      "name": "Galaxy Edition T-Shirt",
+      "price": "$9.99",
+      "type": "T-Shirt"
+    },
+    {
+      "imgPath": "./images/product5.jpg",
+      "name": "M&S Pink Dress",
+      "price": "$39.99",
+      "type": "Dress"
+    },
+    {
+      "imgPath": "./images/product6.jpg",
+      "name": "Omega Chronograph Limited Edition ",
+      "price": "749.99",
+      "type": "Watch"
+    },
+    {
+      "imgPath": "./images/product7.jpg",
+      "name": "Mavi Frank Denim Jacket",
+      "price": "$29.99",
+      "type": "Jacket"
+    },
+    {
+      "imgPath": "./images/product8.jpg",
+      "name": "Defacto Regular Fit Jeans",
+      "price": "$30.00",
+      "type": "Pants"
+    },
+    {
+      "imgPath": "./images/product9.jpg",
+      "name": "Vans | Old Skool Sneakers",
+      "price": "$119.90",
+      "type": "Shoes"
+    },
+    {
+      "imgPath": "./images/product10.jpg",
+      "name": "Zara Black Night Dress",
+      "price": "$59.90",
+      "type": "Dress"
+    },
+    {
+      "imgPath": "./images/product11.jpg",
+      "name": "LTB Slim-Fit Black T-Shirt",
+      "price": "$9.00",
+      "type": "T-Shirt"
+    },
+    {
+      "imgPath": "./images/product12.jpg",
+      "name": "Daniel Wellington Watch",
+      "price": "$220.00",
+      "type": "Watch"
+    },
+    {
+      "imgPath": "./images/product13.jpg",
+      "name": "Pull&Bear Gray Hoodie",
+      "price": "$35.00",
+      "type": "Hoodie"
+    },
+    {
+      "imgPath": "./images/product14.jpg",
+      "name": "Vivian Red Dress Pretty",
+      "price": "$999.00",
+      "type": "Dress"
+    },
+    {
+      "imgPath": "./images/product15.jpg",
+      "name": "Nautica MoonLight Blue T-Shirt",
+      "price": "$14.99",
+      "type": "T-Shirt"
+    }
+  ]
+}
